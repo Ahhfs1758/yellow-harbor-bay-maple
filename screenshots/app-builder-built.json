@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "彗行自然实践中心",
+      "hasCanvas": true,
+      "bodyTextLen": 458,
+      "bodyTextHash": "8c13107fdf728e55d9b9ad27c1f101aaa93a971258af7637175338f65de26fbc",
+      "bodyTextPrefix": "成都 · 塔子山公园 自然实践中心 上午 晴朗，冷白昼光 立体剖视 暖白原木 重播 视角 立体剖视 正交俯视 1.35m 剖切 ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "彗行自然实践中心",
+      "hasCanvas": true,
+      "bodyTextLen": 138,
+      "bodyTextHash": "51a7454eec8b97280f54f3fc0ac2deb43503ffd60c23bedf66bb14ea9dad3388",
+      "bodyTextPrefix": "成都 · 塔子山公园 自然实践中心 上午 晴朗，冷白昼光 立体剖视 暖白原木 重播 装修效果 一层 二层 三层 全部 分层 屋顶",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "mobile: body text changed (185 -> 138 chars, hash mismatch)"
+  ]
+}
